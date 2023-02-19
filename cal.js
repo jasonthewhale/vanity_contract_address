@@ -33,7 +33,7 @@ for (var i = 0; i < 72057594037927936; i++) {
    if (i >= 1e8 && i === 1e8) {
       console.log("over 1e8")
    }
-
+   // change 'def1' to any vanity phrase you like in contract address
    if (hashed.substr(26).includes('def1')) {
       console.log(`${i} ${hashed.substr(26)}`)
       console.log(saltToBytes)
