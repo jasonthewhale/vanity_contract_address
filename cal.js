@@ -16,7 +16,7 @@ for (var i = 0; i < 72057594037927936; i++) {
    // 2. Concatenate this between the other 2 strings
    var concatString = string1.concat(saltToBytes).concat(string2)
 
-   //3. Hash the resulting string
+   // 3. Hash the resulting string
    var hashed = eth.bufferToHex(ethers.utils.keccak256(concatString))
 
    // 4. Remove leading 0x and 12 bytes
