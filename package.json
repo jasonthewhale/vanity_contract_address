@@ -1,0 +1,19 @@
+{
+  "name": "vanity_contract_address",
+  "version": "1.0.0",
+  "description": "Calculate a vanity contract address with \"create2\" Use javascript to do the calculation and solidity to deploy contracts.",
+  "main": "cal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "main:jasonthewhale/vanity_contract_address.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethereumjs-util": "^7.1.5",
+    "ethers": "^5.0"
+  }
+}

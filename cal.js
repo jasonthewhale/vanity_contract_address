@@ -1,12 +1,12 @@
-const ethers = require ("ethers");
+const { ethers, utils } = require("ethers");
 const eth = require('ethereumjs-util');
 
-// 0xff ++ deployingAddress is fixed:
-var string1 = '0xff' + 'contract_address without 0x'
+// 0xff ++ factory contract address is fixed:
+var string1 = '0xff' + ''
 
 // Hash of the bytecode is fixed. Calculated with eth.keccak256():
-let bytecode = 'creation bytecode'
-var string2 = ethers.utils.keccak256(bytecode).slice(2)
+let bytecode = ''
+var string2 = utils.keccak256(bytecode).slice(2)
 
 // In each loop, i is the value of the salt we are checking
 for (var i = 0; i < 72057594037927936; i++) {
@@ -34,7 +34,7 @@ for (var i = 0; i < 72057594037927936; i++) {
       console.log("over 1e8")
    }
    // change 'def1' to any vanity phrase you like in contract address
-   if (hashed.substr(26).includes('def1')) {
+   if (hashed.substr(26).includes('112358')) {
       console.log(`${i} ${hashed.substr(26)}`)
       console.log(saltToBytes)
       break

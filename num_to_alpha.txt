@@ -1,0 +1,52 @@
+[0-9A-F]
+
+f4c1 -> fuck
+c0de -> code
+7a502 -> jason
+34a1e -> whale
+e74e2 -> ether
+f4c1c25bf
+
+
+g -> 9 (looks most similar)
+h -> 4 (looks most similar)
+i -> 1 (looks most similar)
+j -> 7 (looks most similar)
+k -> 1 (looks most similar)
+l -> 1
+m -> 3 (looks most similar)
+n -> 2 (looks most similar)
+o -> 0
+p -> 9 (looks most similar)
+q -> 9 (looks most similar)
+r -> 2 (looks most similar)
+s -> 5
+t -> 7 (looks most similar)
+u -> 4 (looks most similar)
+v -> 4 (looks most similar)
+w -> 3 (looks most similar)
+x -> x
+y -> 4 (looks most similar)
+z -> 2 (looks most similar)
+
+
+G -> 6 (looks most similar)
+H -> 4 (looks most similar)
+I -> 1
+J -> 7 (looks most similar)
+K -> 1 (looks most similar)
+L -> 1
+M -> 3 (looks most similar)
+N -> 2 (looks most similar)
+O -> 0
+P -> 9 (looks most similar)
+Q -> 0 (looks most similar)
+R -> 2 (looks most similar)
+S -> 5
+T -> 7 (looks most similar)
+U -> 4 (looks most similar)
+V -> 4 (looks most similar)
+W -> 3 (looks most similar)
+X -> X
+Y -> 4 (looks most similar)
+Z -> 2 (looks most similar)
